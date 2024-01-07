@@ -11,7 +11,7 @@ import SwiftUI
 struct NetReq_CachingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductGridView()
         }
     }
 }

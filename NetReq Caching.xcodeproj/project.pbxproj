@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		C42590EC2B4A2B47003063BB /* NetReq_CachingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42590EB2B4A2B47003063BB /* NetReq_CachingApp.swift */; };
-		C42590EE2B4A2B47003063BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42590ED2B4A2B47003063BB /* ContentView.swift */; };
 		C42590F02B4A2B48003063BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42590EF2B4A2B48003063BB /* Assets.xcassets */; };
 		C42590F32B4A2B48003063BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42590F22B4A2B48003063BB /* Preview Assets.xcassets */; };
+		C42590FE2B4A3865003063BB /* NetReqCachingDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C42590FC2B4A3865003063BB /* NetReqCachingDataModel.xcdatamodeld */; };
+		C42591012B4A58BD003063BB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42591002B4A58BD003063BB /* Product.swift */; };
+		C42591032B4A58C1003063BB /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42591022B4A58C1003063BB /* Rating.swift */; };
+		C425910B2B4A6450003063BB /* FakeStoreAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C425910A2B4A6450003063BB /* FakeStoreAPIService.swift */; };
+		C425910E2B4A6690003063BB /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C425910D2B4A6690003063BB /* CoreDataStack.swift */; };
+		C42591112B4A6A1F003063BB /* FakeStoreAPIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42591102B4A6A1F003063BB /* FakeStoreAPIRepository.swift */; };
+		C42591152B4A6D3B003063BB /* ProductGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42591142B4A6D3B003063BB /* ProductGridViewModel.swift */; };
+		C42591182B4A6D6D003063BB /* AppStateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42591172B4A6D6D003063BB /* AppStateEnum.swift */; };
+		C425911A2B4A6D97003063BB /* ProductGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42591192B4A6D97003063BB /* ProductGridView.swift */; };
+		C425911D2B4A6E20003063BB /* ProductCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C425911C2B4A6E20003063BB /* ProductCardComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C42590E82B4A2B47003063BB /* NetReq Caching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetReq Caching.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42590EB2B4A2B47003063BB /* NetReq_CachingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetReq_CachingApp.swift; sourceTree = "<group>"; };
-		C42590ED2B4A2B47003063BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C42590EF2B4A2B48003063BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42590F22B4A2B48003063BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C42590FD2B4A3865003063BB /* NetReqCachingDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetReqCachingDataModel.xcdatamodel; sourceTree = "<group>"; };
+		C42591002B4A58BD003063BB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C42591022B4A58C1003063BB /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		C425910A2B4A6450003063BB /* FakeStoreAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeStoreAPIService.swift; sourceTree = "<group>"; };
+		C425910D2B4A6690003063BB /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		C42591102B4A6A1F003063BB /* FakeStoreAPIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeStoreAPIRepository.swift; sourceTree = "<group>"; };
+		C42591142B4A6D3B003063BB /* ProductGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridViewModel.swift; sourceTree = "<group>"; };
+		C42591172B4A6D6D003063BB /* AppStateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateEnum.swift; sourceTree = "<group>"; };
+		C42591192B4A6D97003063BB /* ProductGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridView.swift; sourceTree = "<group>"; };
+		C425911C2B4A6E20003063BB /* ProductCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,8 @@
 		C42590EA2B4A2B47003063BB /* NetReq Caching */ = {
 			isa = PBXGroup;
 			children = (
-				C42590EB2B4A2B47003063BB /* NetReq_CachingApp.swift */,
-				C42590ED2B4A2B47003063BB /* ContentView.swift */,
+				C42591092B4A643C003063BB /* Core */,
+				C42591082B4A6435003063BB /* Datasource */,
 				C42590EF2B4A2B48003063BB /* Assets.xcassets */,
 				C42590F12B4A2B48003063BB /* Preview Content */,
 			);
@@ -65,6 +83,95 @@
 				C42590F22B4A2B48003063BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C42590FF2B4A58B1003063BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C42591002B4A58BD003063BB /* Product.swift */,
+				C42591022B4A58C1003063BB /* Rating.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C42591072B4A642E003063BB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C425910A2B4A6450003063BB /* FakeStoreAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C42591082B4A6435003063BB /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				C425910F2B4A6A0E003063BB /* Repositories */,
+				C42591072B4A642E003063BB /* Services */,
+				C425910C2B4A667E003063BB /* Providers */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		C42591092B4A643C003063BB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C42591162B4A6D5D003063BB /* Enums */,
+				C42590FF2B4A58B1003063BB /* Models */,
+				C42591122B4A6D07003063BB /* Views */,
+				C42591132B4A6D0F003063BB /* ViewModels */,
+				C42590EB2B4A2B47003063BB /* NetReq_CachingApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C425910C2B4A667E003063BB /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				C425910D2B4A6690003063BB /* CoreDataStack.swift */,
+				C42590FC2B4A3865003063BB /* NetReqCachingDataModel.xcdatamodeld */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		C425910F2B4A6A0E003063BB /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				C42591102B4A6A1F003063BB /* FakeStoreAPIRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		C42591122B4A6D07003063BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C42591192B4A6D97003063BB /* ProductGridView.swift */,
+				C425911B2B4A6DAB003063BB /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C42591132B4A6D0F003063BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C42591142B4A6D3B003063BB /* ProductGridViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C42591162B4A6D5D003063BB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C42591172B4A6D6D003063BB /* AppStateEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C425911B2B4A6DAB003063BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C425911C2B4A6E20003063BB /* ProductCardComponent.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C42590EE2B4A2B47003063BB /* ContentView.swift in Sources */,
+				C425910E2B4A6690003063BB /* CoreDataStack.swift in Sources */,
+				C42591152B4A6D3B003063BB /* ProductGridViewModel.swift in Sources */,
+				C425910B2B4A6450003063BB /* FakeStoreAPIService.swift in Sources */,
+				C42591182B4A6D6D003063BB /* AppStateEnum.swift in Sources */,
+				C42591012B4A58BD003063BB /* Product.swift in Sources */,
+				C42591032B4A58C1003063BB /* Rating.swift in Sources */,
+				C425911A2B4A6D97003063BB /* ProductGridView.swift in Sources */,
+				C425911D2B4A6E20003063BB /* ProductCardComponent.swift in Sources */,
+				C42591112B4A6A1F003063BB /* FakeStoreAPIRepository.swift in Sources */,
 				C42590EC2B4A2B47003063BB /* NetReq_CachingApp.swift in Sources */,
+				C42590FE2B4A3865003063BB /* NetReqCachingDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +460,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C42590FC2B4A3865003063BB /* NetReqCachingDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C42590FD2B4A3865003063BB /* NetReqCachingDataModel.xcdatamodel */,
+			);
+			currentVersion = C42590FD2B4A3865003063BB /* NetReqCachingDataModel.xcdatamodel */;
+			path = NetReqCachingDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C42590E02B4A2B47003063BB /* Project object */;
 }
