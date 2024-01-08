@@ -79,7 +79,7 @@ class FakeStoreAPIRepository: FakeStoreAPIRepositoryProtocol {
             title: productEntity.title ?? "",
             price: productEntity.price,
             image: productEntity.image ?? "",
-            rating: Rating(rate: productEntity.rating?.rate ?? 0, count: Int(productEntity.rating?.count ?? 0))
+            rating: Product.Rating(rate: productEntity.rating?.rate ?? 0, count: Int(productEntity.rating?.count ?? 0))
         )
     }
 }
